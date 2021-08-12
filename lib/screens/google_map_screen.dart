@@ -11,11 +11,11 @@ class _GoogleMapScreen extends State<GoogleMapScreen>{
   Set<Marker>_markers={ };
   void _onMapCreated(GoogleMapController controller){
     setState((){
-   _markers.add(
+  _markers.add(
      Marker(markerId:MarkerId('id-1'),
-     position:LatLng(14.467354,78.824135),
-     infoWindow:InfoWindow(title: 'kadapa',
-     snippet: 'City in Andhrapradesh',
+     position:LatLng(14.847420,78.389908),
+     infoWindow:InfoWindow(title: 'Jammalamadugu',
+     snippet: 'Mandal in kadapa',
      ),
      )
    );
@@ -29,9 +29,9 @@ class _GoogleMapScreen extends State<GoogleMapScreen>{
      );
      _markers.add(
      Marker(markerId:MarkerId('id-3'),
-     position:LatLng(15.8309251,78.0425373),
-     infoWindow:InfoWindow(title: 'Kurnool',
-     snippet: 'city in Andhrapradesh',
+     position:LatLng(14.584410,78.656517),
+     infoWindow:InfoWindow(title: 'Kamalapuram',
+     snippet: 'Mandal in kadapa',
      ),
      ),
      
